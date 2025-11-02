@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/subs.py": {
+      "runtime": "python3.9"
+    }
+  }
+}
