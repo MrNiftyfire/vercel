@@ -2,7 +2,8 @@
 export default async function handler(req, res) {
   try {
     const response = await fetch(
-      `https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UC0KdIoPfAh_aKEOcBlexMMw&key=${process.env.YT_API_KEY}`
+      `https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UC0KdIoPfAh_aKEOcBlexMMw&key=${process.env.YT_API_KEY
+}`
     );
 
     const data = await response.json();
